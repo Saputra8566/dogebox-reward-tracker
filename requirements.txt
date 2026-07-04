@@ -1,0 +1,18 @@
+# --- DogeBox Reward Tracker dependencies ---
+# Telegram bot framework (async) with JobQueue (scheduler) and rate limiter.
+python-telegram-bot[job-queue,rate-limiter]==21.6
+
+# HTTP client used to query the OpenForge merkle distributor.
+httpx==0.27.2
+
+# HTML parsing fallback for the reward parser.
+beautifulsoup4==4.12.3
+
+# Charting (rendered head-less via the Agg backend).
+matplotlib==3.9.2
+
+# Environment configuration.
+python-dotenv==1.0.1
+
+# Timezone database used for scheduling in a fixed timezone.
+pytz==2024.2
